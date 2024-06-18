@@ -1,0 +1,22 @@
+﻿
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioCRUDMvvm.Views.ProductoPage">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="Nombre:" />
+			<Entry x:Name="NombreEntry" />
+			<Label Text="Descripción:" />
+			<Entry x:Name="DescripcionEntry" />
+			<Label Text="Precio:" />
+			<Entry x:Name="PrecioEntry" />
+			<Label Text="Stock:" />
+			<Entry x:Name="StockEntry" />
+			<Button Text="Guardar" Clicked="Guardar_Clicked" />
+			<Button Text="Cancelar" Clicked="Cancelar_Clicked" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
+
